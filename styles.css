@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Michroma&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#26282B;
+}
+.watch{
+
+    margin-top: 25px;
+    display:flex;
+    background-color: #5F85DB;
+    width:300px;
+    height:300px;
+    justify-content:center;
+    align-items: center;
+    border-radius:50%;
+    border: solid 1px white;
+    font-size:42px;
+    font-family: 'Michroma', cursive;
+}
+
+.whole{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:200px;
+}
+
+
+.buttons{
+
+    margin-top: 25px;
+
+}
+
+.button{
+    padding:30px 50px;
+    margin:15px 15px;
+    font-family: 'Michroma';
+    font-size: 18px;
+    border-radius: 12px;
+    background-color:rgb(219, 36, 36);
+    color:white;
+}
+
+.stop{
+
+    background-color:#353941;
+    max-width:700px;
+    height:auto;
+    text-align:center;
+    margin:auto;
+    border-radius:1rem;
+}
+
+.button:hover{
+
+    cursor: pointer;
+    opacity: 0.7;
+}
